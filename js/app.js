@@ -19,7 +19,7 @@ function fecthing() {
     input1 = document.getElementById("title").value
     input2 = document.getElementById("description").value
     input3 = document.getElementById("url1").value
-
+    input3 = input3.replace("watch?v=", "embed/");
 
     let cardSection = document.querySelector('.card');
     cardSection.innerHTML += `<div 'id='iframe-container'> <iframe width="420" height="315" src="${input3}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
