@@ -1,9 +1,13 @@
+/* Viewports melhor renderizados no Chrome, responsivo em vários smartphones como Iphones do 6 pra cima,
+MotoG4, Ipad, Notebooks e Desktops (Não responsivo acima de 1080p). */
+
 @media (max-width: 540px) {
 
     h1 {
         color: #04AA6D;
         display: flex;
         justify-content: center;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     }
     
     .iframe-container {
@@ -42,7 +46,7 @@
         color:#04AA6D;
       }
 
-    .input1 {
+      .input1 {
         width: 250px;
         margin: 10px;
         margin-left: 17%;
@@ -52,9 +56,9 @@
         display: flex;
         justify-content: center;
         border-radius: 20px;
-    }
+      }
     
-    .input2 {
+      .input2 {
         width: 250px;
         margin: 10px;
         margin-left: 17%;
@@ -64,9 +68,9 @@
         display: flex;
         justify-content: center;
         border-radius: 20px;
-    }
+      }
     
-    .input3 {
+      .input3 {
         width: 250px;
         margin: 10px;
         margin-left: 17%;
@@ -76,9 +80,9 @@
         display: flex;
         justify-content: center;
         border-radius: 20px;
-    }
+      }
     
-    .button1 {
+      .button1 {
         display: flex;
         justify-content: center;
         width: 250px;
@@ -90,37 +94,105 @@
         font-size: 16px;
         cursor: pointer;
         text-align: center;
-    }
+      }
+
+      h2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 12px;
+        color: #04AA6D;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+      }
+
+      .input4 {
+        width: 180px;
+        margin: 10px;
+        margin-left: 25%;
+        padding: 5px;
+        font-weight: bolder;
+        color:#04AA6D;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+      }
+  
+    .input5 {
+        width: 180px;
+        margin: 10px;
+        margin-left: 25%;
+        padding: 5px;
+        font-weight: bolder;
+        color:#04AA6D;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+      }
+  
+    #enviar {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        margin-left: 31.7%;
+        border: none;
+        background-color: #04AA6D;
+        padding: 14px 28px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+  
+    .btnEquipe {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+  
+    #equipe {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        border: none;
+        background-color: #04AA6D;
+        padding: 14px 28px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
 }
 
 @media (min-width: 768px) {
     
-    h1 {
+      h1 {
         color: #04AA6D;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
         display: flex;
         justify-content: center;
+        margin-right: 25px;
       }
-      
+  
       .iframe-container {
         width: 100%;
         padding-bottom: 56.25%; 
         height: 0;
       }
-      
+  
       .iframe-container iframe {
         top:0;
         left: 0;
         width: 100%;
         height: 100%;
       }
-      
-      .grid-container {
+  
+    .grid-container {
         columns: 5 200px;
         column-gap: 1.5rem;
         width: 55%;
         margin: 0 auto;
       }
-      
+  
       .hdois {
         display: flex;
         justify-content: center;
@@ -129,14 +201,14 @@
         vertical-align: top;
         color:#04AA6D;
       }
-      
-      .paragrafo {
+  
+    .paragrafo {
         display: flex;
         justify-content: center;
         font-weight: bolder;
         color:#04AA6D;
-      }
-      
+      }  
+  
       .input1 {
         width: 300px;
         margin: 20px;
@@ -148,7 +220,7 @@
         justify-content: center;
         border-radius: 20px;
       }
-      
+  
       .input2 {
         width: 300px;
         margin: 20px;
@@ -160,7 +232,7 @@
         justify-content: center;
         border-radius: 20px;
       }
-      
+  
       .input3 {
         width: 300px;
         margin: 20px;
@@ -172,12 +244,78 @@
         justify-content: center;
         border-radius: 20px;
       }
-      
+  
       .button1 {
         display: flex;
         justify-content: center;
         width: 300px;
         margin-left: 28%;
+        border: none;
+        background-color: #04AA6D;
+        padding: 14px 28px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;  
+      }
+
+      h2 {
+        display: flex;
+        justify-content: center;
+        color: #04AA6D;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        margin-right: 20px;
+      }
+
+    .input4 {
+        width: 180px;
+        margin: 10px;
+        margin-left: 35.5%;
+        padding: 5px;
+        font-weight: bolder;
+        color:#04AA6D;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+      }
+
+      .input5 {
+        width: 180px;
+        margin: 10px;
+        margin-left: 35.5%;
+        padding: 5px;
+        font-weight: bolder;
+        color:#04AA6D;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+      }  
+
+      #enviar {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        margin-left: 38.5%;
+        border: none;
+        background-color: #04AA6D;
+        padding: 14px 28px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .btnEquipe {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: 25px;
+      }
+
+      #equipe {
+        display: flex;
+        justify-content: center;
+        width: 150px;
         border: none;
         background-color: #04AA6D;
         padding: 14px 28px;
@@ -192,8 +330,10 @@
     
       h1 {
         color: #04AA6D;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
         display: flex;
         justify-content: center;
+        margin-left: 6%;
       }
   
       .iframe-container {
@@ -228,6 +368,7 @@
       .paragrafo {
         display: flex;
         justify-content: center;
+        font-style: italic;
         font-weight: bolder;
         color:#04AA6D;
       }
@@ -281,7 +422,73 @@
         cursor: pointer;
         text-align: center;
       }
-}
+
+      h2 {
+        display: flex;
+        justify-content: center;
+        margin-left: 7%;
+        color: #04AA6D;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+      }
+    
+      .input4 {
+        width: 180px;
+        margin: 10px;
+        margin-left: 45.5%;
+        padding: 5px;
+        font-weight: bolder;
+        color:#04AA6D;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+      }
+    
+      .input5 {
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        margin-left: 45.5%;
+        padding: 5px;
+        font-weight: bolder;
+        color:#04AA6D;
+        border-radius: 20px;
+      }
+    
+      #enviar {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        margin-left: 47.5%;
+        border: none;
+        background-color: #04AA6D;
+        padding: 14px 28px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+    
+      .btnEquipe {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 96px;
+      }
+    
+      #equipe {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        border: none;
+        background-color: #04AA6D;
+        padding: 14px 28px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+}            
 
 
 

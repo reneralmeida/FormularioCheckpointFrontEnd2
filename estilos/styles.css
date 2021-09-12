@@ -1,67 +1,23 @@
-/* https://colorhunt.co/palette/261c2c3e2c415c527f6e85b2 */
+/* Importando Media Queries e Estilizações gerais */
 @import url('./mediaQueries.css');
 
-* {
+input {
   background-color: #261C2C;
+  color: #04AA6D;
 }
 
-/* .card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
-
-
-/* h1 {
-    color: #04AA6D;
-    display: flex;
-    justify-content: center;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #04AA6D;
+  opacity: 1; /* Firefox */
 }
 
-.input1 {
-    width: 300px;
-    margin: 20px;
-    margin-left: 27%;
-    padding: 5px;
-    color:#04AA6D;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #04AA6D;
 }
 
-.input2 {
-    width: 300px;
-    margin: 20px;
-    margin-left: 27%;
-    padding: 5px;
-    color: #04AA6D;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #04AA6D;
 }
-
-.input3 {
-    width: 300px;
-    margin: 20px;
-    margin-left: 27%;
-    padding: 5px;
-    color: #04AA6D;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-}
-
-.button1 {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    margin-left: 28%;
-    border: none;
-    background-color: #04AA6D;
-    padding: 14px 28px;
-    border-radius: 20px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-}
- */
+ p {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+ }
