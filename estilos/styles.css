@@ -1,6 +1,10 @@
 /* Importando Media Queries e Estilizações gerais */
 @import url('./mediaQueries.css');
 
+* {
+  font-family: 'Kreon', serif;
+}
+
 input {
   background-color: #261C2C;
   color: #04AA6D;
