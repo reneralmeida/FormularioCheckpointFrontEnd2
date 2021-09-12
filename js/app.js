@@ -21,7 +21,7 @@ function fetching() {
     input1 = document.getElementById("title").value
     input2 = document.getElementById("description").value
     input3 = document.getElementById("url1").value
-    input3 = input3.replace("watch?v=", "embed/"); //A main page do YT exige autenticação SSL, porém, ao usar a URL /embed evitamos essa proteção
+    input3 = input3.replace("watch?v=", "embed/"); //A main page do YT exige autenticação SSL, porém, ao usar a URL /embed evitamos essa proteção (Pesquisa: https://stackoverflow.com/questions/25661182/embed-youtube-video-refused-to-display-in-a-frame-because-it-set-x-frame-opti)
 
     let cardSection = document.querySelector('.card');
     cardSection.innerHTML += `<div 'id='iframe-container'> <iframe width="420" height="315" src="${input3}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
