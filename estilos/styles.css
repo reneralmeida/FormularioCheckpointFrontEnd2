@@ -22,6 +22,29 @@ input {
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #04AA6D;
 }
- p {
+ 
+p {
+  color: #04AA6D;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
- }
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#formContato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

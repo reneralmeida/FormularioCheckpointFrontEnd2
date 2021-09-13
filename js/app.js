@@ -42,10 +42,10 @@ document.getElementById('equipe').addEventListener("click", function() {
                                 </div>`;
 
     document.body.innerHTML += `<div class='equipe'>
-                                <h2>Equipe:</h2>
-                                <h2>Guilherme Procópio</h2>
-                                <h2>Nathalia Vieira</h2>
-                                <h2>Rener Almeida</h2>
+                                <p>Equipe:</p>
+                                <p>Guilherme Procópio</p>
+                                <p>Nathalia Vieira</p>
+                                <p>Rener Almeida</p>
                                 </div>`;
 
     let enviar = document.getElementById('enviar');
