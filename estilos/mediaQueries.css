@@ -1,5 +1,5 @@
-/* Estilização baseada em display flex
-(com exceção do grid-container usado para reter o card verticalmente) */
+/* Estilização baseada em display flex (com exceção do grid-container usado para forçar o card verticalmente),
+variações de tamanho dos campos dos forms de acordo com a resolução de tela */
 
 @media (max-width: 540px) {
 
@@ -8,23 +8,8 @@
       display: flex;
       justify-content: center;
       text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-  }
-  
-  .iframe-container {
-      position: relative;
-      width: 100%;
-      padding-bottom: 56.25%; 
-      height: 0;
-    }
-    
-    .iframe-container iframe {
-      position: absolute;
-      top:0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    
+    }  
+
     .grid-container {
       columns: 5 200px;
       column-gap: 1.5rem;
@@ -160,23 +145,10 @@
       justify-content: center;
     }
 
-    .iframe-container {
-      width: 100%;
-      padding-bottom: 56.25%; 
-      height: 0;
-    }
-
-    .iframe-container iframe {
-      top:0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-  .grid-container {
+    .grid-container {
       columns: 5 200px;
       column-gap: 1.5rem;
-      width: 55%;
+      width: 27%;
       margin: 0 auto;
     }
 
@@ -190,7 +162,7 @@
       color:#04AA6D;
     }
 
-  .paragrafo {
+    .paragrafo {
       display: flex;
       justify-content: center;
       font-weight: bolder;
@@ -308,23 +280,10 @@
       justify-content: center;
     }
 
-    .iframe-container {
-      width: 100%;
-      padding-bottom: 56.25%; 
-      height: 0;
-    }
-
-    .iframe-container iframe {
-      top:0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
     .grid-container {
       columns: 5 200px;
       column-gap: 1.5rem;
-      width: 40%;
+      width: 150px;
       margin: 0 auto;
     }
 
@@ -446,50 +405,4 @@
       cursor: pointer;
       text-align: center;
     }
-}
-
-@media (min-width: 1224px) {
-
-  .iframe-container {
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-
-  .iframe-container iframe {
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .grid-container {
-    columns: 5 200px;
-    column-gap: 1.5rem;
-    width: 21%;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 1921px) {
-
-  .iframe-container {
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-
-  .iframe-container iframe {
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .grid-container {
-    columns: 5 200px;
-    column-gap: 1.5rem;
-    width: 11%;
-    margin: 0 auto;
-  }
 }
