@@ -1,4 +1,5 @@
-/* Estilização baseada em display flex */
+/* Estilização baseada em display flex
+(com exceção do grid-container usado para reter o card verticalmente) */
 
 @media (max-width: 540px) {
 
